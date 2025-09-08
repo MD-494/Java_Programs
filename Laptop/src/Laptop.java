@@ -1,8 +1,9 @@
 public class Laptop {
 
     public static void main(String[] args){
-        My_Laptop l = new My_Laptop();
+        MyLaptop l = new MyLaptop("Dell","Inspiron",8);
 
+        l.displayLaptopDetails();
         l.createDocument();
         l.runPaintApplication();
         l.watchMovie();
