@@ -8,41 +8,69 @@ public class Operations {
         /**
          * Take input from user
          */
-        System.out.println(" Enter the First value: ");
+        System.out.println("Enter the First value: ");
         int v1 = sc.nextInt();
 
-        System.out.println(" Enter the Second value: ");
+        System.out.println("Enter the Second value: ");
         int v2 = sc.nextInt();
 
         /**
-         * Performing arithmetic operations and printing its results
+         * Performing arithmetic operations and relational operations
          */
-        System.out.println("Addition: " + (v1 + v2));
-        System.out.println("Addition: " + (v1 - v2));
-        System.out.println("Addition: " + (v1 * v2));
-        System.out.println("Addition: " + (v1 / v2));
-        System.out.println("Addition: " + (v1 % v2));
+        System.out.println("Choose an operation: ");
+        System.out.println("1.Addition");
+        System.out.println("2.Subtraction");
+        System.out.println("3.Multiplication");
+        System.out.println("4.Division");
+        System.out.println("5.Modulus");
+        System.out.println("6.Greater than");
+        System.out.println("7.Less than");
+        System.out.println("8.Equal to");
+        System.out.println("9.Not Equal to");
+        System.out.println("10.Greater than or Equal to");
+        System.out.println("11.Less than or Equal to");
 
         /**
-         * Performing relational operations and printing its results
+         * take input from user to perform the operations
          */
-        if(v1 > v2) {
-            System.out.println("V1 is Greater than V2");
+        System.out.println("Enter Your choice(1 to 11): ");
+        int ch = sc.nextInt();
+
+        /**
+         * Perform the chosen operations
+         */
+        if(ch == 1) {
+            System.out.println("Addition is: " + (v1 + v2));
         }
-        if(v1 < v2) {
-            System.out.println("V1 is Less than V2");
+        if(ch == 2) {
+            System.out.println("Subtraction is: " + (v1 - v2));
         }
-        if(v1 == v2) {
-            System.out.println("V1 is Equal to V2");
+        if(ch == 3) {
+            System.out.println("Multiplication is: " + (v1 * v2));
         }
-        if(v1 >= v2) {
-            System.out.println("V1 is Greater than or Equal to V2");
+        if(ch == 4) {
+            System.out.println("Division is: " + (v1 / v2));
         }
-        if(v1 <= v2) {
-            System.out.println("V1 is less than or Equal to V2");
+        if(ch == 5) {
+            System.out.println("Modulus is: " + (v1 % v2));
         }
-        if(v1 != v2) {
-            System.out.println("V1 is Not Equal to V2");
+        if(ch == 6) {
+            System.out.println(v1 + " > " + v2 + (v1 > v2));
+        }
+        if(ch == 7) {
+            System.out.println(v1 + " < " + v2 + (v1 < v2));
+        }
+        if(ch == 8) {
+            System.out.println(v1 + " == " + v2 + (v1 == v2));
+        }
+        if(ch == 9) {
+            System.out.println(v1 + " != " + v2 + (v1 != v2));
+        }
+        if(ch == 10) {
+            System.out.println(v1 + " >= " + v2 + (v1 >= v2));
+        }
+        if(ch == 11) {
+            System.out.println(v1 + " <= " + v2 + (v1 <= v2));
         }
     }
 }
