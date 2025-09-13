@@ -10,18 +10,16 @@ public class Bike extends Vehicle {
      * @param seats
      */
     public Bike(String brand, int speed, String type, int seats) {
-        /**
-         * Call Vehicle constructor to initialize brand and speed
-         */
+
+        //Call Vehicle constructor to initialize brand and speed
         super(brand, speed);
         this.type = type;
         this.seats = seats;
     }
 
     public void printDetails() {
-        /**
-         * Call Vehicle's printDetails() to print brand and speed and print Bike-specific details
-         */
+
+        //Call Vehicle's printDetails() to print brand and speed and print Bike-specific details
         super.printDetails();
         System.out.println("Type: " + type);
         System.out.println("Seats: " + seats);
