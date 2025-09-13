@@ -1,4 +1,4 @@
-package Abstraction.company;
+package abstraction.company;
 
 /**
  * Manager class implements Employee interface

@@ -1,4 +1,4 @@
-package Abstraction.MusicalInstruments;
+package abstraction.musicalinstruments;
 
 public class MusicalInstruments {
     public static void main(String[] args) {

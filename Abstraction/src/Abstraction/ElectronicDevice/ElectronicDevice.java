@@ -1,4 +1,4 @@
-package Abstraction.ElectronicDevice;
+package abstraction.electronicdevice;
 
 public abstract class ElectronicDevice {
 

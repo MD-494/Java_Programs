@@ -1,4 +1,4 @@
-package Abstraction.company;
+package abstraction.company;
 
 /**
  * Hr class implements Employee interface

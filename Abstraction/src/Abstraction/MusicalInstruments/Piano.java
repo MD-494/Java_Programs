@@ -1,4 +1,4 @@
-package Abstraction.MusicalInstruments;
+package abstraction.musicalinstruments;
 
 /**
  * Piano class implements the Instruments interface.

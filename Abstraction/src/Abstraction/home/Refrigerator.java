@@ -1,12 +1,13 @@
-package Abstraction.home;
+package abstraction.home;
 
 /**
- * Refrigerator class that extends the abstract class Home
+ * Refrigerator class that extends the abstract class HomeAppliance
  */
-public class Refrigerator extends Home {
+public class Refrigerator extends HomeAppliance {
 
-        @Override
-        void operate() {
-            System.out.println("Refrigerator is cooling food.");
-        }
+    //Method for operate the home appliance
+    @Override
+    void operate() {
+        System.out.println("Refrigerator is cooling food.");
+    }
 }

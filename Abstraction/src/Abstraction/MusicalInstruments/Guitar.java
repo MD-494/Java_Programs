@@ -1,4 +1,4 @@
-package Abstraction.MusicalInstruments;
+package abstraction.musicalinstruments;
 
 /**
  * Guitar class implements the Instruments interface.

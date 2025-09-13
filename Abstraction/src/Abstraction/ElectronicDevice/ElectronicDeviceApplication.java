@@ -1,4 +1,4 @@
-package Abstraction.ElectronicDevice;
+package abstraction.electronicdevice;
 
 public class ElectronicDeviceApplication {
     public static void main(String[] args) {

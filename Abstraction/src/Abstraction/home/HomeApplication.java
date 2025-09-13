@@ -1,17 +1,17 @@
-package Abstraction.home;
+package abstraction.home;
 
 public class HomeApplication {
     public static void main(String[] args) {
 
-        Home washingMachine = new WashingMachine();
+        HomeAppliance washingMachine = new WashingMachine();
         washingMachine.operate();
         washingMachine.plugIn();
 
-        Home refrigerator = new Refrigerator();
+        HomeAppliance refrigerator = new Refrigerator();
         refrigerator.operate();
         refrigerator.plugIn();
 
-        Home microwave = new Microwave();
+        HomeAppliance microwave = new Microwave();
         microwave.operate();
         microwave.plugIn();
     }

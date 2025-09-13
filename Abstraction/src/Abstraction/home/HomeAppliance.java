@@ -1,8 +1,8 @@
-package Abstraction.home;
+package abstraction.home;
 
-public abstract class Home {
+public abstract class HomeAppliance {
 
-    //Abstract method to operate the home applications
+    //Abstract method to operate the home appliance
     abstract void operate();
 
     //Method for plugging the device to a power source

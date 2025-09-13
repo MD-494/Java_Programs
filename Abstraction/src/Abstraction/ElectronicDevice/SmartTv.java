@@ -1,4 +1,4 @@
-package Abstraction.ElectronicDevice;
+package abstraction.electronicdevice;
 
 /**
  * SmartTv class that extends the abstract class ElectronicDevice

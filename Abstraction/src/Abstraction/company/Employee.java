@@ -1,4 +1,4 @@
-package Abstraction.company;
+package abstraction.company;
 
 public interface Employee {
 
